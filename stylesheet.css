@@ -13,7 +13,7 @@ header {
 
 header .header-brand {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
     color: red;
     text-transform: uppercase;
@@ -73,3 +73,24 @@ section {
 
 }
 
+style
+    table {
+    border-collapse: collapse;
+         }
+                
+                table, td, th {
+                  border: 2px solid black;
+                }
+                
+                p.uppercase {
+                    text-transform: uppercase;
+                  }
+                  
+                  p.lowercase {
+                    text-transform: lowercase;
+                  }
+                  
+                  p.capitalize {
+                    text-transform: capitalize;
+                  }
+                
